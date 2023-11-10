@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhuvi Bagde</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/6004143362.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Image/Logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p id="changing-text" style="color: orange">Game Developer</p>
+          <h1>Hi, I'm <span>Bhuavneshwar</span> <br />Bagde From India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------ABOUT--------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Image/User.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a dedicated and passionate individual who is always eager to
+              learn and explore new horizons.I have honed my skills in Software
+              as well as hardware skills . I believe in the power of continuous
+              self-improvement and embrace challenges as opportunities for
+              personal and professional growth. In my free time, I take pleasure
+              in continually honing my skills and seeking opportunities for
+              further improvement, which help me unwind and stay creative. I am
+              a strong believer in Spirtuality and strive to make a positive
+              impact on the world in my own unique way. Connecting with people
+              and building meaningful relationships is something I cherish, and
+              I'm always excited to collaborate and share experiences with
+              others.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <!-- Skills tab -->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interface</li>
+                <li><span>Python</span><br />Python Developer</li>
+                <li><span>Java</span><br />Java Developer</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+              </ul>
+            </div>
+
+            <!-- Experience tab -->
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Aug 2023</span><br />Python Training At Devtown</li>
+                <li>
+                  <span>Oct 2023 - Current</span><br />Python & AI Training
+                  Under Devtown
+                </li>
+              </ul>
+            </div>
+
+            <!-- Education tab -->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2025</span><br />B.Tech From S.B.Jain Institute of
+                  Technology Nagpur
+                </li>
+                <li><span>2020</span><br />HSSC From Maharashtra Board</li>
+                <li><span>2018</span><br />SSC From Maharashtra Board</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------------------SERVICES---------------------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              From responsive design for mobile users to search engine
+              optimization for higher visibility, our web design services offer
+              a comprehensive solution to help you succeed in the digital
+              landscape.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-uikit"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              With a user-centered approach, we focus on understanding your
+              target audience, creating designs that resonate with them and
+              drive engagement, ultimately leading to increased user
+              satisfaction and loyalty.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Developer</h2>
+            <p>
+              Our app development services prioritize user-friendly, engaging
+              applications, aligning your vision with strategic goals. We
+              specialize in user experience and cutting-edge technology,
+              providing end-to-end solutions for competitive digital products.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fas fa-gamepad"></i>
+            <h2>Game Developer</h2>
+            <p>
+              From concept to launch, we offer comprehensive game development
+              solutions, including design, development, and ongoing support,
+              enabling you to stand out in the competitive gaming industry and
+              maximize the potential of your gaming portfolio.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------PORTFOLIO------------------------------------>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Image/Work-1.jpg" height="250px" />
+            <div class="layer">
+              <h3>Clone</h3>
+              <p>
+                The Website Connect you to talented people in india also gives
+                you the joyfull Entertaiment
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Image/Work-2.png" />
+            <div class="layer">
+              <h3>Health & Fitness</h3>
+              <p>
+                "Ready to elevate your fitness? My app is the missing piece to
+                the puzzle, and you're the perfect fit to try it out."
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Image/work-3.jpg" />
+            <div class="layer">
+              <h3>Game Using AI</h3>
+              <p>
+                Are you a gamer? My app will level up your gaming experience –
+                let me show you!"
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!--------------------------------------CONTACT------------------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i>contact
+              @bhuvan1175@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>7083623156</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/bhuvi__1175/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/bhuvi-bagde/" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Bhuvan1175" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://twitter.com/Bhuvan1175" target="_blank"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </div>
+            <a href="#" download class="btn btn3" target="_blank"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="3"
+                placeholder="Your Meassage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2023 | Designed and Developed By Bhuvaneshwar Bagde</p>
+      </div>
+    </div>
+
+    <script>
+      const changingText = document.getElementById("changing-text");
+      const texts = [
+        "Game Developer",
+        "Web Designer",
+        "App Developer",
+        "UI/UX Designer",
+      ]; // Add more text options as needed
+      let textIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+
+      function typeText() {
+        const currentText = texts[textIndex];
+        if (isDeleting) {
+          changingText.textContent = currentText.substring(0, charIndex - 1);
+          charIndex--;
+        } else {
+          changingText.textContent = currentText.substring(0, charIndex + 1);
+          charIndex++;
+        }
+
+        if (!isDeleting && charIndex === currentText.length) {
+          isDeleting = true;
+          setTimeout(typeText, 1000); // Wait for a moment before deleting
+        } else if (isDeleting && charIndex === 0) {
+          isDeleting = false;
+          textIndex = (textIndex + 1) % texts.length;
+          setTimeout(typeText, 500); // Wait before typing the next word
+        } else {
+          setTimeout(typeText, 100); // Typing speed
+        }
+      }
+
+      typeText(); // Start the typing animation
+    </script>
+    <script>
+      function opentab(tabname) {
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+
+        for (var i = 0; i < tablinks.length; i++) {
+          tablinks[i].classList.remove("active-link");
+          tabcontents[i].classList.remove("active-tab");
+        }
+
+        for (var i = 0; i < tablinks.length; i++) {
+          if (tablinks[i].innerText === tabname) {
+            tablinks[i].classList.add("active-link");
+            tabcontents[i].classList.add("active-tab");
+          }
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw5jj7_QRWTK8k_aORMos1WV__4qs9TGLIQ6mMpJorU6jLlcSO4X6GIucexEG2wS57Y7w/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
